@@ -4,7 +4,7 @@
     <title>Formularios</title>
   </head>
   <body>
-    <form action="resultados.html" method="GET">
+    <form action="/" method="GET">
         <!-- El atributo action hace referencia a donde nosotros queremos mandar el formulario-->
         <!--Metodo GET cuando queremos obtener algo del server-->
         <!--Metodo POST, se debe de utilizar cuando se hace alguna accion de un servidor-->
@@ -15,23 +15,13 @@
       </div>
       <br>
       <div>
-        <label for="password">Contraseña</label>
-        <input type="password" name="password" id="password" required/>
-      </div>
-      <br>
-      <div>
-        <label for="comentarios">comentarios</label>
-        <textarea name="comentarios" id="comentarios"></textarea>
-      </div>
-      <br>
-      <div>
         <label for="edad">edad</label>
         <input type="number" name="edad" id="edad" required/>
       </div>
       <br>
       <div>
-        <label for="date">date</label>
-        <input type="datetime-local" name="date" id="date" required/>
+        <label for="frase">frase favorita</label>
+        <textarea name="frase" id="frase" required></textarea>
       </div>
       <br>
        <button type="reset">Reset</button>
